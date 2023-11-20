@@ -33,7 +33,7 @@ BEGIN
             v_id_article := i;
             v_libelle_article := 'Article ' || TO_CHAR(i);
             v_prix_article := DBMS_RANDOM.VALUE(10, 100); -- Valeurs de prix entre 10 et 100
-            v_tva_article := DBMS_RANDOM.VALUE(5, 20);  -- Valeurs de TVA entre 5 et 20
+            v_tva_article := 20;
             v_stock_article := DBMS_RANDOM.VALUE(1, 100); -- Valeurs de stock entre 1 et 100
             v_id_categorie := DBMS_RANDOM.VALUE(1, 20); -- Valeurs d'Id_Categorie entre 1 et 20
 
